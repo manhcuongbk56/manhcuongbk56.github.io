@@ -16,4 +16,4 @@ Divide to these generation cause of `the weak generational hypothesis`.
 + `Serial collector`: run only on once core, pause time will be huge, for client style machine. It is default GC.
 We can chose it by using `-XX:+UseSerialGC` command line option.
 + `Parallel collector`: utilize multi core of model PC. GC will run on multi core, reduce pause time.
-Server machine should use it, use ` –XX:ParallelGCThreads=n` command line option with n is number of core.
+Server machine should use it, use `–XX:ParallelGCThreads=n` command line option with n is number of core.
