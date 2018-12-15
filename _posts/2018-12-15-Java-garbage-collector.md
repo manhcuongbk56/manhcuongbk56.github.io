@@ -17,3 +17,6 @@ Divide to these generation cause of `the weak generational hypothesis`.
 We can chose it by using `-XX:+UseSerialGC` command line option.
 + `Parallel collector`: utilize multi core of model PC. GC will run on multi core, reduce pause time.
 Server machine should use it, use `–XX:ParallelGCThreads=n` command line option with n is number of core.
++ `Parallel compacting collector`: the left side of each generation is dense. The amount of space that can be recovered
+is not worth compact. So, it will find the point in the right side of dense space to start compact.
+=> eventually, it'll replace `parallel collector`. Command line option to use `-XX:+UseParallelOldGC`
