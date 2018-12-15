@@ -5,8 +5,8 @@ date:   2018-12-13 21:54:44 +0700
 categories: Docker
 tags: docker container
 ---
-#Some thing about `Docker`
-## Some basic comment. To get to familiar with docker.
+## Some thing about `Docker`
+1. Some basic comment. To get to familiar with docker.
 + `docker run` to run an image. If this image is not in local, docker will download and run it.
 + `docker ps` to list all running docker.
 + `docker restart name_of_docker` to restart a container that was stopped.
