@@ -20,3 +20,6 @@ Server machine should use it, use `–XX:ParallelGCThreads=n` command line optio
 + `Parallel compacting collector`: the left side of each generation is dense. The amount of space that can be recovered
 is not worth compact. So, it will find the point in the right side of dense space to start compact.
 => eventually, it'll replace `parallel collector`. Command line option to use `-XX:+UseParallelOldGC`
+
+## Initial Variable
+1. `XmX`: initial heap size
